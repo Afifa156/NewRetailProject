@@ -3,7 +3,7 @@ from lib.Utils import get_spark_session
 
 @pytest.fixture
 def spark():
-    "Creates spark Session"
+    "Creates spark Session -change"
     spark_session = get_spark_session("LOCAL")
     yield spark_session
     spark_session.stop()

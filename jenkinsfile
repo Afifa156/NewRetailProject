@@ -19,7 +19,7 @@ pipeline{
 	       }
 	       stage('Deploy'){
 		steps{
-			echo "deploy completed successful-change to check"
+			echo "deploy completed successful"
 		     }
 	       }
 	   }		
