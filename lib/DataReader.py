@@ -2,6 +2,7 @@ from lib import ConfigReader
 
 #defining customers schema
 def get_customers_schema():
+    "modification made to check in jenkins pipeline"
     schema = "customer_id int,customer_fname string,customer_lname \
     string,username string,password string,address string,city string,state \
     string,pincode string"
